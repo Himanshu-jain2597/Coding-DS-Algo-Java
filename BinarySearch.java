@@ -35,8 +35,9 @@ class Codechef
 	public static void binarySearch(int[] arr,int elementToSearch) {
 	    int low = 0;
 	    int high = arr.length-1;
-	    int mid = (low+high)/2;
+	    
 	    while(low>high) {
+	        int mid = (low+high)/2;
 	        if(arr[mid]>elementToSearch) {
 	            high = mid-1;
 	        }
