@@ -1,3 +1,4 @@
+// array should be sorted
 /* package codechef; // don't place package name! */
 
 import java.util.*;
