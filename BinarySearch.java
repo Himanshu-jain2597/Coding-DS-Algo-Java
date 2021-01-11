@@ -36,7 +36,7 @@ class Codechef
 	    int low = 0;
 	    int high = arr.length-1;
 	    
-	    while(low>high) {
+	    while(low<=high) {
 	        int mid = (low+high)/2;
 	        if(arr[mid]>elementToSearch) {
 	            high = mid-1;
@@ -46,8 +46,8 @@ class Codechef
 	        }
 	        else {
 	            System.out.println(arr[mid]);
+	            break;
 	        }
 	    }
-	    //System.out.println(-1);
 	}
 }
