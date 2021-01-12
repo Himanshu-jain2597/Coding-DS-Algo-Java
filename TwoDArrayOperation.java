@@ -1,5 +1,12 @@
 // 2-D just means array of arrays i.e one D array point array 
 
+/*
+if we initalise with this way 
+int [][] arr  = new int[][3] // this things is not possible compilation error. cannot specify an array dimension after an empty dimension
+int [][] arr = new int[3][] // only one d is created at two point and which have values null.
+
+*/
+
 /* package codechef; // don't place package name! */
 
 import java.util.*;
