@@ -32,28 +32,35 @@ class Codechef
 	 int right = arr[top].length-1;
 	 int count =0;
 	 int total = (bottom+1)*(right+1);
-	 while(count<=total&&top<=bottom&&left<=right) {
+	 while(top<=bottom&&left<=right) {
+	     if(count<=total) {
 	     for(int i=left;i<=right;i++) {
 	         System.out.println(arr[top][i]);
 	         count++;
 	     }
 	     top++;
+	     }
+	     if(count<=total) {
 	     for(int i=top;i<=bottom;i++) {
 	         System.out.println(arr[i][right]);
 	         count++;
 	     }
 	     right--;
+	     }
+	     if(count<=total) {
 	     for(int i=right;i>=left;i--) {
 	         System.out.println(arr[bottom][i]);
 	         count++;
 	     }
 	     bottom--;
+	     }
+	     if(count<=total) {
 	     for(int i=bottom;i>=top;i--) {
 	         System.out.println(arr[i][left]);
 	         count++;
 	     }
 	     left++;
-	     
+	     }
 	 }
 	}
     }
