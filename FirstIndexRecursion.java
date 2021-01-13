@@ -19,7 +19,7 @@ class Codechef
 	    
 	}
 	public static int firstIndex(int arr[],int fi,int si) {
-	    if(si==arr.length-1) {
+	    if(si==arr.length) {
 	        return -1;
 	    }
 	    else if(arr[si]==fi){
