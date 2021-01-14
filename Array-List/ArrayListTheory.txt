@@ -1,0 +1,23 @@
+  
+Size of array is fixed 
+
+
+This diadvantage is solved by arraylist. 
+
+Arraylist is dynamic in nature. if don't have to specify an size initally. it will grow on its own.
+
+
+ArrayList<Integer> arr = new ArrayList<Integer>;  // initalizing of arraylist
+
+
+default capacity of arrayList -2
+default size of arrayList -0 // no element is added
+
+arr.size()  // total element in arrayList. 
+
+arr.add(1) // to add an element in arrayList. 
+
+
+arr.get(1)  // to get first element from arrayList.
+
+arr.remove(3) // to remove an element at index 3 and move all the element greater then 3 a position ahead. 
