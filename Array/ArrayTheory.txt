@@ -1,0 +1,20 @@
+Array:- Array is a collection of same data type i.e number or string. there are two types of memory stack and heap.
+
+How to declare an Array
+
+for int type default value will be 0.
+for float type default will be 0.0
+int [] arr = new int[5] // right side of equation will return a base value of the array. 
+
+Array properties:- 
+length:- arr.length will return a total length of the array.(indexing vary from 0 to length-1)
+update arr value:-  arr[1]=20;
+get arr value :- System.out.println(arr[0]);
+time complexity:-  to update or to get value take o(1) time . i.e constant time.
+
+
+
+public static void main(String[] args) {
+int[] arr = null // declare a null array
+arr = new int[5]; // if u are using new keywoard then space will be allocated in heap. 20 byte of continous memory will be allocated.
+}
