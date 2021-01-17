@@ -1,3 +1,12 @@
+									abc,""
+										
+				bc,""                                             bc,"a"
+										
+		c,""                  c,"b"                                     c,"a"        c,"ab"
+	
+	""	  "c"                  "b"      "bc"                          "a"     "ac"       "ab"     "abc"								
+
+
 /* package codechef; // don't place package name! */
 
 import java.util.*;
