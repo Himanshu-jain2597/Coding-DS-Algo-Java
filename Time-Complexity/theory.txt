@@ -1,0 +1,14 @@
+criteria on which time complexity dependes:-
+1. Input size( for very large input which algorithim face less time.)
+
+
+Big O :- it denotes worst case o(1) means constant time..
+
+worst case:- 
+linear search :-  o(n)
+binarysearch:- o(logn)
+mergesort:- o(nlogn)
+quick sort:- o(nlogn)
+bubble sort:- o(n^2)
+selection sort:- o(n^2)
+finnonci := o(2^n)
