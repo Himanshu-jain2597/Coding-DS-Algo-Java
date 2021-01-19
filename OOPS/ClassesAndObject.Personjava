@@ -1,0 +1,15 @@
+// in java everyhing is an object and classes is just a blueprint of the object.. 
+// object is always made through class
+// object are always in heap memory. beacuse it is initalize with new Keywoard.. 
+
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Person {
+String name;
+int age;
+}
