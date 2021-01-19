@@ -1,5 +1,7 @@
 /* package codechef; // don't place package name! */
 
+// n loglogn
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
