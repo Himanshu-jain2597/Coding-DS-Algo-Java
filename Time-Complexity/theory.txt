@@ -12,3 +12,13 @@ quick sort:- o(nlogn)
 bubble sort:- o(n^2)
 selection sort:- o(n^2)
 finnonci := o(2^n)
+sieve of enthosis :- o(nloglogn)
+
+stack:-
+insertion in stack:- O(1)
+deletion in stack:- o(1)
+
+
+queue:- 
+insertion in queue:- o(1)
+deletion in queue:- o(1)
