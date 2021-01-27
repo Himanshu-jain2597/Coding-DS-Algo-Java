@@ -1,0 +1,7 @@
+Array cannot grow dynmaically but linked list can grow dynamically.. Array is continous location and bracuase of this we can access randomly access any element . 
+but in linked list we cannot access any randomly list and it is access sequential... 
+
+Need of linked list:- 
+
+Array - get/set o(1)
+linked list:- non continous allocation...  
