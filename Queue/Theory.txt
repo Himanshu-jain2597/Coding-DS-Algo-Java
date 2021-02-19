@@ -1,0 +1,7 @@
+FIFO - FIRST IN FIRST OUT 
+
+
+// insertion at queue from front end using front ponter (enqueue operation)
+
+
+// deletion from queue take place from rear end (dequeue operation)
