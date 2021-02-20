@@ -1,3 +1,4 @@
+// ony work for distnict number i.e for unique number.
 class Solution {
     int MissingNumber(int array[], int n) {
         
