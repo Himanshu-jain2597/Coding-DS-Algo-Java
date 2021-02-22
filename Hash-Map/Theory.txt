@@ -1,0 +1,16 @@
+HaspMap <String,Integer> map = new HaspMap<>();
+
+
+
+
+// key must be unique 
+map.put("usa",2); // usa is a key and 2 is a value
+
+
+
+map.get("usa")  // to get value of the map
+
+map.get("rsa") // return null 
+
+
+map.remove("usa") // return value as remove usa key
