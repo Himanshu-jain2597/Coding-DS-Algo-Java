@@ -4,13 +4,16 @@ HaspMap <String,Integer> map = new HaspMap<>();
 
 
 // key must be unique 
-map.put("usa",2); // usa is a key and 2 is a value
+map.put("usa",2); // usa is a key and 2 is a value  // o(1)
 
 
 
-map.get("usa")  // to get value of the map
+map.get("usa")  // to get value of the map // o(1)
 
-map.get("rsa") // return null 
+map.get("rsa") // return null  // o(1)
 
 
-map.remove("usa") // return value as remove usa key
+map.remove("usa") // return value as remove usa key  // o(1)
+
+
+map.contains("usa") // return true if key is present otherwise return false  // o(1)
