@@ -35,6 +35,6 @@ class GFG {
         System.out.println(values);
 
         
-
+	Set<Map.Entry<Character,Integer>> entries = freq.entrySet();
 	}
 }
