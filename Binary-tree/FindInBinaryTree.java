@@ -3,11 +3,11 @@ class GFG
 	public static boolean find(Node root,int data) {
 	    
 	    if(root==null) {
-	        return  -1;
+	        return  false;
 	    }
 	    
 	    if(root.data == data)  {
-	        return 1;
+	        return true;
 	    }
 
 	   
