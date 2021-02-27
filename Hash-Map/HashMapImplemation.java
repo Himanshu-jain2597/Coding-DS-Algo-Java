@@ -1,5 +1,11 @@
 /*package whatever //do not write package name here */
 
+
+// hash map work internally with linked list as bucket.  Time Complexity o(1)
+
+//if collision is occuring frequently  then linked list change into self balancing binary tree and it reduce time complexity to o(logn) from o(n). 
+
+
 import java.io.*;
 import java.util.*;
 
