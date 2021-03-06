@@ -1,4 +1,6 @@
-int lcs(int x, int y, string s1, string s2,int[][] str){
+// top down approch
+
+int lcs(int x, int y, string s1, string s2,int[][] str){  // str default size is s1.length()s2.length(); default value is -1
     
     if(text1.length()==0||text2.length()==0) {
             return 0;
