@@ -14,14 +14,14 @@ int lcs(int x, int y, string s1, string s2,int[][] str){
             
           
             
-            ans =  1 + longestCommonSubsequence(x+1,y+1,ros1, ros2);
+            ans =  1 + longestCommonSubsequence(x+1,y+1,ros1, ros2,str);
             
             
         }
         else {
             
-            int first = longestCommonSubsequence(x,y+1,ros1, text2);
-            int second = longestCommonSubsequence(x+1,y,text1, ros2);
+            int first = longestCommonSubsequence(x,y+1,ros1, text2,str);
+            int second = longestCommonSubsequence(x+1,y,text1, ros2,str);
             
             ans =  Math.max(first,second);
             
