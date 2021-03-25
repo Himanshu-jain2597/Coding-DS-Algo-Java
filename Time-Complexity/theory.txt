@@ -22,3 +22,8 @@ deletion in stack:- o(1)
 queue:- 
 insertion in queue:- o(1)
 deletion in queue:- o(1)
+
+
+
+To Find Time Complexity in Recursion:- 
+No. of function calls * work done in 1st frame.
